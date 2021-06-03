@@ -159,7 +159,7 @@ def main():
     exit_loc_x, exit_loc_y = exit_place(room_length, room_width)
     # Then find the exit...
     dungeon_escape(player_x, player_y, exit_loc_x, exit_loc_y, room_length, room_width)
-    print("You found the exit! You are now Sir " + name + " of the Lost Dungeon!")
+    print("You found the exit! You are now Champion " + name + " of the Lost Dungeon!")
 
 
 if __name__ == '__main__':
